@@ -23,6 +23,12 @@ const chaptersData = [
           <div class="info-card"><h4>Middle Managers</h4><p>Manage the work of first-line managers and serve as a link between top management and operational employees.</p></div>
           <div class="info-card"><h4>First-Line Managers</h4><p>Directly supervise non-managerial employees and manage day-to-day operations at the lowest level of management.</p></div>
         </div>
+        <div class="diagram-pyramid">
+          <div class="pyramid-level top">Top Managers</div>
+          <div class="pyramid-level middle">Middle Managers</div>
+          <div class="pyramid-level first">First-Line Managers</div>
+          <div class="pyramid-level non">Non-Managerial Employees</div>
+        </div>
         <div class="real-world-example">
           <div class="rwe-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg> Real-World Application</div>
           <p>At <span class="company-name">Arab Bank</span>, the CEO and Board of Directors are Top Managers setting the bank's expansion strategy. Regional Directors (Middle Managers) oversee branch clusters across Jordan. Each Branch Manager (First-Line) supervises tellers and customer service staff directly.</p>
@@ -109,7 +115,25 @@ const chaptersData = [
           <li>Heartily cooperate with workers to ensure all work is done in accordance with scientific principles.</li>
           <li>Divide work and responsibility equally between management and workers.</li>
         </ul>
-        <p><span class="key-term">Frank & Lillian Gilbreth</span> also contributed through time-and-motion studies to improve productivity.</p>`
+        <p><span class="key-term">Frank & Lillian Gilbreth</span> also contributed through time-and-motion studies to improve productivity.</p>
+        <div class="diagram-timeline mt-2">
+          <div class="timeline-item">
+            <div class="timeline-title">1. Classical Approach (Early 1900s)</div>
+            <div class="timeline-desc">Scientific Management (Taylor) & General Administrative Theory (Fayol, Weber). Focus on rationality and efficiency.</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-title">2. Quantitative Approach (1940s)</div>
+            <div class="timeline-desc">Use of statistics and optimization models. Evolved from WWII military solutions.</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-title">3. Behavioral Approach (1920s-1950s)</div>
+            <div class="timeline-desc">Focus on workers' actions. Hawthorne Studies showed social norms influence output.</div>
+          </div>
+          <div class="timeline-item">
+            <div class="timeline-title">4. Contemporary Approaches (1960s-Present)</div>
+            <div class="timeline-desc">Systems Approach and Contingency Approach.</div>
+          </div>
+        </div>`
       },
       {
         title: 'General Administrative Theory',
@@ -194,7 +218,14 @@ const chaptersData = [
         title: 'Characteristics of Well-Designed Goals (S.M.A.R.T)',
         icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 11 12 14 22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>',
         content: `<p>Goals should be written and have <span class="key-term">SMART</span> characteristics:</p>
-        <div class="info-grid">
+        <div class="diagram-smart">
+          <div class="smart-letter"><div class="smart-char">S</div><div class="smart-word">Specific</div></div>
+          <div class="smart-letter"><div class="smart-char">M</div><div class="smart-word">Measurable</div></div>
+          <div class="smart-letter"><div class="smart-char">A</div><div class="smart-word">Achievable</div></div>
+          <div class="smart-letter"><div class="smart-char">R</div><div class="smart-word">Relevant</div></div>
+          <div class="smart-letter"><div class="smart-char">T</div><div class="smart-word">Time-bound</div></div>
+        </div>
+        <div class="info-grid mt-1">
           <div class="info-card"><h4>S - Specific</h4><p>Clear and well-defined, leaving no room for ambiguity</p></div>
           <div class="info-card"><h4>M - Measurable</h4><p>Quantifiable so progress can be tracked</p></div>
           <div class="info-card"><h4>A - Achievable</h4><p>Attainable but challenging enough to motivate</p></div>
@@ -356,7 +387,14 @@ const chaptersData = [
         title: 'Steps in the Control Process',
         icon: '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>',
         content: `<p>The <span class="key-term">Control Process</span> consists of three steps:</p>
-        <div class="info-grid">
+        <div class="diagram-process">
+          <div class="process-step">1. Measure<br><span style="font-size:0.7rem;font-weight:normal;">Actual Performance</span></div>
+          <div class="process-arrow">➔</div>
+          <div class="process-step">2. Compare<br><span style="font-size:0.7rem;font-weight:normal;">Against Standard</span></div>
+          <div class="process-arrow">➔</div>
+          <div class="process-step">3. Take Action<br><span style="font-size:0.7rem;font-weight:normal;">Correct Deviations</span></div>
+        </div>
+        <div class="info-grid mt-1">
           <div class="info-card"><h4>Step 1: Measuring Actual Performance</h4><p>Four approaches: personal observations, statistical reports, oral reports, and written reports. What is measured is critically important because it determines employee behavior.</p></div>
           <div class="info-card"><h4>Step 2: Comparing Against the Standard</h4><p>Determining the acceptable Range of Variation. Deviations outside this range require attention, whether positive or negative.</p></div>
           <div class="info-card"><h4>Step 3: Taking Managerial Action</h4><p>Three options: do nothing, correct actual performance (immediate or basic corrective action), or revise the standard.</p></div>
@@ -468,6 +506,9 @@ function showSection(section) {
   document.getElementById('heroSection').classList.toggle('hidden', section !== 'hero');
   document.getElementById('summarySection').classList.toggle('hidden', section !== 'summary');
   document.getElementById('quizSection').classList.toggle('hidden', section !== 'quiz');
+  
+  const fcSection = document.getElementById('flashcardsSection');
+  if (fcSection) fcSection.classList.toggle('hidden', section !== 'flashcards');
 
   document.querySelectorAll('.nav-link').forEach(link => {
     link.classList.toggle('active', link.dataset.section === section);
@@ -1153,4 +1194,141 @@ function clearHistory() {
     localStorage.removeItem('quizHistory');
     renderProgressSection();
   }
+// ============================================================
+// SECTION 8: FLASHCARDS SYSTEM
+// ============================================================
+
+let fcState = {
+  active: false,
+  cards: [],
+  currentIndex: 0
+};
+
+// Simple hardcoded flashcards data
+const flashcardsData = {
+  ch1: [
+    { term: "Manager", def: "Someone who coordinates and oversees the work of other people so that organizational goals can be accomplished." },
+    { term: "First-Line Managers", def: "Manage the work of nonmanagerial employees who typically are involved with producing the organization’s products or servicing the organization’s customers." },
+    { term: "Middle Managers", def: "Manage the work of first-line managers and can be found between the lowest and top levels of the organization." },
+    { term: "Top Managers", def: "Responsible for making organization-wide decisions and establishing the plans and goals that affect the entire organization." },
+    { term: "Organization", def: "A deliberate arrangement of people to accomplish some specific purpose." },
+    { term: "Management", def: "Coordinating and overseeing the work activities of others so that their activities are completed efficiently and effectively." },
+    { term: "Efficiency", def: "Getting the most output from the least amount of inputs; 'doing things right'." },
+    { term: "Effectiveness", def: "Completing activities so that organizational goals are attained; 'doing the right things'." }
+  ],
+  ch1ap: [
+    { term: "Scientific Management", def: "The use of scientific methods to define the 'one best way' for a job to be done (Taylor)." },
+    { term: "General Administrative Theory", def: "Focuses on what constitutes good management practice (Fayol & Weber)." },
+    { term: "Bureaucracy", def: "A form of organization characterized by division of labor, a clearly defined hierarchy, detailed rules, and impersonal relationships (Weber)." },
+    { term: "Hawthorne Studies", def: "A series of studies during the 1920s and 1930s that provided new insights into individual and group behavior." },
+    { term: "Systems Approach", def: "Views systems as a set of interrelated and interdependent parts arranged in a manner that produces a unified whole." }
+  ],
+  ch8: [
+    { term: "Planning", def: "Management function that involves setting goals, establishing strategies for achieving those goals, and developing plans to integrate and coordinate work activities." },
+    { term: "Goals (Objectives)", def: "Desired outcomes or targets." },
+    { term: "Plans", def: "Documents that outline how goals are going to be met." },
+    { term: "Strategic Plans", def: "Plans that apply to the entire organization and establish the organization’s overall goals." },
+    { term: "Operational Plans", def: "Plans that encompass a particular operational area of the organization." },
+    { term: "MBO (Management By Objectives)", def: "A process of setting mutually agreed-upon goals and using those goals to evaluate employee performance." },
+    { term: "SMART Goals", def: "Specific, Measurable, Achievable, Relevant, and Time-bound." }
+  ],
+  ch11: [
+    { term: "Organizing", def: "Arranging and structuring work to accomplish an organization's goals." },
+    { term: "Organizational Structure", def: "The formal arrangement of jobs within an organization." },
+    { term: "Work Specialization", def: "Dividing work activities into separate job tasks." },
+    { term: "Departmentalization", def: "The basis by which jobs are grouped together." },
+    { term: "Chain of Command", def: "The continuous line of authority that extends from upper levels of an organization to the lowest levels." },
+    { term: "Span of Control", def: "The number of employees who can be effectively and efficiently supervised by a manager." },
+    { term: "Centralization", def: "The degree to which decision making is concentrated at upper levels of the organization." },
+    { term: "Decentralization", def: "The degree to which lower-level employees provide input or actually make decisions." },
+    { term: "Mechanistic Organization", def: "An organizational design that's rigid and tightly controlled." },
+    { term: "Organic Organization", def: "An organizational design that's highly adaptive and flexible." }
+  ],
+  ch16: [
+    { term: "Leader", def: "Someone who can influence others and who has managerial authority." },
+    { term: "Leadership", def: "What leaders do; the process of influencing a group to achieve goals." },
+    { term: "Trait Theories", def: "Leadership theories that isolate characteristics that differentiate leaders from nonleaders." },
+    { term: "Behavioral Theories", def: "Leadership theories that identify behaviors that differentiate effective leaders from ineffective leaders." },
+    { term: "Transactional Leaders", def: "Leaders who lead primarily by using social exchanges (or transactions)." },
+    { term: "Transformational Leaders", def: "Leaders who stimulate and inspire (transform) followers to achieve extraordinary outcomes." },
+    { term: "Charismatic Leader", def: "An enthusiastic, self-confident leader whose personality and actions influence people." }
+  ],
+  ch18: [
+    { term: "Controlling", def: "Management function that involves monitoring, comparing, and correcting work performance." },
+    { term: "Control Process", def: "A three-step process of measuring actual performance, comparing actual performance against a standard, and taking managerial action." },
+    { term: "Range of Variation", def: "The acceptable parameters of variance between actual performance and the standard." },
+    { term: "Feedforward Control", def: "Control that takes place before a work activity is done." },
+    { term: "Concurrent Control", def: "Control that takes place while a work activity is in progress." },
+    { term: "Feedback Control", def: "Control that takes place after a work activity is done." },
+    { term: "Balanced Scorecard", def: "A performance measurement tool that examines more than just the financial perspective." }
+  ]
+};
+
+function startFlashcards() {
+  const chapter = document.getElementById('fcChapterSelect').value;
+  fcState.cards = flashcardsData[chapter] || [];
+  
+  if (fcState.cards.length === 0) {
+    alert("No flashcards available for this chapter yet.");
+    return;
+  }
+  
+  // Shuffle cards
+  fcState.cards = shuffleArray([...fcState.cards]);
+  fcState.currentIndex = 0;
+  fcState.active = true;
+  
+  document.getElementById('flashcardSetup').classList.add('hidden');
+  document.getElementById('flashcardActive').classList.remove('hidden');
+  
+  renderFlashcard();
+}
+
+function renderFlashcard() {
+  const card = fcState.cards[fcState.currentIndex];
+  document.getElementById('fcCurrentNum').textContent = fcState.currentIndex + 1;
+  document.getElementById('fcTotalNum').textContent = fcState.cards.length;
+  
+  document.getElementById('fcTerm').textContent = card.term;
+  document.getElementById('fcDef').textContent = card.def;
+  
+  // Reset flip state
+  document.getElementById('fcCard').classList.remove('is-flipped');
+  
+  // Update buttons
+  document.getElementById('fcPrevBtn').disabled = fcState.currentIndex === 0;
+  
+  if (fcState.currentIndex === fcState.cards.length - 1) {
+    document.getElementById('fcNextBtn').textContent = "Finish";
+    document.getElementById('fcNextBtn').classList.replace('btn-primary', 'btn-success');
+  } else {
+    document.getElementById('fcNextBtn').textContent = "Next";
+    document.getElementById('fcNextBtn').classList.replace('btn-success', 'btn-primary');
+  }
+}
+
+function flipFlashcard() {
+  document.getElementById('fcCard').classList.toggle('is-flipped');
+}
+
+function nextFlashcard() {
+  if (fcState.currentIndex < fcState.cards.length - 1) {
+    fcState.currentIndex++;
+    renderFlashcard();
+  } else {
+    exitFlashcards();
+  }
+}
+
+function prevFlashcard() {
+  if (fcState.currentIndex > 0) {
+    fcState.currentIndex--;
+    renderFlashcard();
+  }
+}
+
+function exitFlashcards() {
+  fcState.active = false;
+  document.getElementById('flashcardActive').classList.add('hidden');
+  document.getElementById('flashcardSetup').classList.remove('hidden');
 }

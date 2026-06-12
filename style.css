@@ -817,6 +817,128 @@ h1, h2, h3, h4, h5, h6 {
   list-style: disc;
 }
 
+/* --- Visual Diagrams CSS --- */
+
+/* 1. Pyramid Diagram */
+.diagram-pyramid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  margin: var(--space-xl) 0;
+}
+.pyramid-level {
+  background: linear-gradient(135deg, var(--clr-primary), var(--clr-primary-light));
+  color: white;
+  text-align: center;
+  padding: var(--space-sm) var(--space-lg);
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: var(--fs-sm);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(108, 99, 255, 0.2);
+}
+.pyramid-level.top { width: 40%; background: linear-gradient(135deg, #FF6B6B, #E05252); }
+.pyramid-level.middle { width: 60%; background: linear-gradient(135deg, #FFB347, #FF9900); }
+.pyramid-level.first { width: 80%; background: linear-gradient(135deg, #00D4AA, #00A383); }
+.pyramid-level.non { width: 100%; background: var(--clr-surface); color: var(--clr-text-secondary); border: 1px dashed var(--clr-border-light); box-shadow: none; }
+
+/* 2. Timeline Diagram */
+.diagram-timeline {
+  position: relative;
+  margin: var(--space-xl) 0;
+  padding-left: 20px;
+  border-left: 3px solid var(--clr-primary);
+}
+.timeline-item {
+  position: relative;
+  margin-bottom: var(--space-lg);
+  padding-left: var(--space-md);
+}
+.timeline-item::before {
+  content: '';
+  position: absolute;
+  left: -28px;
+  top: 4px;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: var(--clr-bg);
+  border: 3px solid var(--clr-primary-light);
+}
+.timeline-title {
+  color: var(--clr-primary-light);
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.timeline-desc {
+  font-size: var(--fs-xs);
+  color: var(--clr-text-secondary);
+}
+
+/* 3. SMART Goals Diagram */
+.diagram-smart {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  justify-content: center;
+  margin: var(--space-xl) 0;
+}
+.smart-letter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--clr-surface);
+  border: 1px solid var(--clr-border-light);
+  border-radius: var(--radius-md);
+  padding: var(--space-sm);
+  width: 80px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.smart-letter:hover {
+  transform: translateY(-5px);
+  border-color: var(--clr-primary-light);
+}
+.smart-char {
+  font-size: var(--fs-2xl);
+  font-weight: 900;
+  color: var(--clr-primary-light);
+  margin-bottom: 4px;
+}
+.smart-word {
+  font-size: 0.65rem;
+  color: var(--clr-text);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* 4. Process Flow Diagram */
+.diagram-process {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--space-sm);
+  margin: var(--space-xl) 0;
+}
+.process-step {
+  background: var(--glass-bg);
+  border: 1px solid var(--clr-primary);
+  border-radius: var(--radius-sm);
+  padding: var(--space-sm) var(--space-md);
+  text-align: center;
+  color: var(--clr-text);
+  font-size: var(--fs-sm);
+  font-weight: bold;
+}
+.process-arrow {
+  color: var(--clr-primary-light);
+}
+
 /* Comparison Table */
 .comparison-table {
   width: 100%;
@@ -1408,7 +1530,88 @@ h1, h2, h3, h4, h5, h6 {
 .mb-1 { margin-top: var(--space-md); }
 .mb-2 { margin-bottom: var(--space-xl); }
 
-/* --- Animations --- */
+/* --- Flashcards CSS --- */
+.flashcards-section {
+  padding-top: var(--space-2xl);
+  min-height: 80vh;
+}
+.flashcard-setup {
+  background: var(--glass-bg);
+  border: 1px solid var(--clr-border-light);
+  border-radius: var(--radius-lg);
+  padding: var(--space-2xl);
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+}
+.fc-scene {
+  width: 100%;
+  max-width: 500px;
+  height: 300px;
+  margin: 0 auto;
+  perspective: 1000px;
+}
+.fc-card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 0.6s cubic-bezier(0.4, 0.2, 0.2, 1);
+  transform-style: preserve-3d;
+  cursor: pointer;
+}
+.fc-card.is-flipped {
+  transform: rotateY(180deg);
+}
+.fc-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--space-xl);
+  border-radius: var(--radius-lg);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  background: linear-gradient(145deg, var(--clr-surface), #1a1f3c);
+  border: 1px solid var(--clr-border-light);
+}
+.fc-back {
+  transform: rotateY(180deg);
+  background: linear-gradient(145deg, #1f254d, var(--clr-surface));
+  border-color: var(--clr-primary);
+}
+.fc-label {
+  position: absolute;
+  top: 20px;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
+  color: var(--clr-primary-light);
+  font-weight: bold;
+}
+.fc-back .fc-label {
+  color: var(--clr-success);
+}
+.fc-content {
+  font-size: var(--fs-xl);
+  color: var(--clr-text);
+  font-weight: bold;
+}
+.fc-back .fc-content {
+  font-size: var(--fs-md);
+  font-weight: normal;
+  line-height: 1.6;
+}
+.fc-hint {
+  position: absolute;
+  bottom: 20px;
+  font-size: 0.75rem;
+  color: var(--clr-text-muted);
+}
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
