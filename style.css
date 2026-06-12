@@ -1704,6 +1704,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     top: 0;
     max-height: none;
+    margin-bottom: var(--space-lg);
   }
 
   .quiz-info-grid {
@@ -1717,10 +1718,11 @@ h1, h2, h3, h4, h5, h6 {
   .quiz-progress {
     flex-direction: column;
     align-items: stretch;
+    gap: 1rem;
   }
 
   .question-card {
-    padding: var(--space-lg);
+    padding: var(--space-md);
   }
 
   .hero h1 {
@@ -1729,7 +1731,48 @@ h1, h2, h3, h4, h5, h6 {
 
   .hero-actions {
     flex-direction: column;
-    align-items: center;
+    align-items: stretch;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .hero-actions .btn {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Make tables responsive by allowing horizontal scroll */
+  .comparison-table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+}
+
+@media (max-width: 480px) {
+  .fc-scene {
+    height: 250px;
+  }
+  
+  .fc-content {
+    font-size: var(--fs-lg);
+  }
+  
+  .fc-back .fc-content {
+    font-size: var(--fs-sm);
+  }
+  
+  .smart-letter {
+    width: 60px;
+  }
+  
+  .smart-char {
+    font-size: var(--fs-xl);
+  }
+  
+  .smart-word {
+    font-size: 0.55rem;
   }
 }
 
