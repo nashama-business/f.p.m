@@ -1194,6 +1194,7 @@ function clearHistory() {
     localStorage.removeItem('quizHistory');
     renderProgressSection();
   }
+}
 // ============================================================
 // SECTION 8: FLASHCARDS SYSTEM
 // ============================================================
