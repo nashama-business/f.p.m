@@ -22,6 +22,10 @@ const chaptersData = [
           <div class="info-card"><h4>Top Managers</h4><p>Responsible for making organization-wide decisions and establishing the plans and goals that affect the entire organization.</p></div>
           <div class="info-card"><h4>Middle Managers</h4><p>Manage the work of first-line managers and serve as a link between top management and operational employees.</p></div>
           <div class="info-card"><h4>First-Line Managers</h4><p>Directly supervise non-managerial employees and manage day-to-day operations at the lowest level of management.</p></div>
+        </div>
+        <div class="real-world-example">
+          <div class="rwe-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg> Real-World Application</div>
+          <p>At <span class="company-name">Arab Bank</span>, the CEO and Board of Directors are Top Managers setting the bank's expansion strategy. Regional Directors (Middle Managers) oversee branch clusters across Jordan. Each Branch Manager (First-Line) supervises tellers and customer service staff directly.</p>
         </div>`
       },
       {
@@ -76,7 +80,16 @@ const chaptersData = [
             <tr><td><strong>Effectiveness</strong></td><td>Completing activities that help achieve organizational goals</td><td>Ends -- "Doing the right things"</td></tr>
           </tbody>
         </table>
-        <p class="mt-1">Successful management strives for both high efficiency and high effectiveness simultaneously.</p>`
+        <p class="mt-1">Successful management strives for both high efficiency and high effectiveness simultaneously.</p>
+        <div class="key-takeaways">
+          <div class="kt-header">Key Takeaways</div>
+          <ul>
+            <li>Efficiency = Means = "Doing things right" (resource usage)</li>
+            <li>Effectiveness = Ends = "Doing the right things" (goal attainment)</li>
+            <li>Great management achieves both simultaneously</li>
+            <li>Being efficient without being effective is wasteful in the wrong direction</li>
+          </ul>
+        </div>`
       }
     ]
   },
@@ -187,6 +200,10 @@ const chaptersData = [
           <div class="info-card"><h4>A - Achievable</h4><p>Attainable but challenging enough to motivate</p></div>
           <div class="info-card"><h4>R - Relevant</h4><p>Aligned with strategic organizational objectives</p></div>
           <div class="info-card"><h4>T - Time-bound</h4><p>Has a clear deadline or timeframe</p></div>
+        </div>
+        <div class="real-world-example">
+          <div class="rwe-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg> Real-World Application</div>
+          <p><span class="company-name">Hikma Pharmaceuticals</span> might set a SMART goal: "Increase the export of generic medications to the US market by 20% within the next fiscal year by launching 5 new FDA-approved products." This is Specific (US generics), Measurable (20%, 5 products), Achievable (building on existing FDA approvals), Relevant (aligns with growth strategy), and Time-bound (next fiscal year).</p>
         </div>`
       }
     ]
@@ -239,7 +256,11 @@ const chaptersData = [
             <tr><td>Best for</td><td>Stable environments, cost efficiency</td><td>Dynamic environments, innovation</td></tr>
           </tbody>
         </table>
-        <p class="mt-1">Contingency factors affecting choice: strategy, size, technology, and degree of environmental uncertainty.</p>`
+        <p class="mt-1">Contingency factors affecting choice: strategy, size, technology, and degree of environmental uncertainty.</p>
+        <div class="real-world-example">
+          <div class="rwe-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg> Real-World Application</div>
+          <p><span class="company-name">Jordan Phosphate Mines Company (JPMC)</span> uses a Mechanistic structure: strict hierarchy, defined procedures for mining operations, narrow span of control due to safety requirements. In contrast, a Jordanian tech startup like <span class="company-name">Mawdoo3</span> uses an Organic structure: flexible teams, decentralized decisions, and cross-functional collaboration to innovate rapidly.</p>
+        </div>`
       },
       {
         title: 'Key Organizational Concepts',
@@ -307,7 +328,11 @@ const chaptersData = [
             <tr><td><strong>Transformational Leadership</strong></td><td>Leadership that stimulates and inspires (transforms) followers to achieve extraordinary outcomes</td><td>Intellectual stimulation, individualized consideration, changing awareness of issues, inspiring extra effort</td></tr>
           </tbody>
         </table>
-        <p class="mt-1">Transformational leadership builds on transactional leadership and goes beyond it. Research shows transformational leadership is strongly correlated with higher performance, satisfaction, creativity, and lower turnover.</p>`
+        <p class="mt-1">Transformational leadership builds on transactional leadership and goes beyond it. Research shows transformational leadership is strongly correlated with higher performance, satisfaction, creativity, and lower turnover.</p>
+        <div class="real-world-example">
+          <div class="rwe-header"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg> Real-World Application</div>
+          <p>At <span class="company-name">Royal Jordanian Airlines</span>, a Transactional leader might offer bonuses for meeting on-time departure targets. A Transformational leader would inspire the entire crew with a vision of becoming the region's most trusted airline, encouraging creative problem-solving and personal growth, leading to changes that go beyond simple rewards.</p>
+        </div>`
       }
     ]
   },
@@ -394,12 +419,48 @@ let quizState = {
   timeRemaining: 45 * 60
 };
 
+// Auto-assign difficulty to questions that don't have it
+function assignDifficulty() {
+  if (!window.quizQuestions) return;
+  window.quizQuestions.forEach(q => {
+    if (q.difficulty) return; // already assigned
+    const text = q.question.toLowerCase();
+    const len = q.question.length;
+    // Hard: long scenarios, NOT questions, comparison, multi-concept
+    if (text.includes('which of the following is not') ||
+        text.includes('which statement is incorrect') ||
+        text.includes('all of the following except') ||
+        text.includes('the best example of') ||
+        text.includes('most likely') ||
+        text.includes('least likely') ||
+        text.includes('primary difference between') ||
+        len > 200) {
+      q.difficulty = 'hard';
+    }
+    // Easy: true/false, short definition, direct recall
+    else if (q.type === 'tf' ||
+             text.includes('is defined as') ||
+             text.includes('is known as') ||
+             text.includes('which type of skill') ||
+             text.includes('which management function') ||
+             len < 80) {
+      q.difficulty = 'easy';
+    }
+    // Medium: everything else (scenarios, application)
+    else {
+      q.difficulty = 'medium';
+    }
+  });
+}
+
 // DOM Ready
 document.addEventListener('DOMContentLoaded', () => {
   renderChaptersGrid();
   renderSidebar();
   renderChapterSummary(0);
   setupNavbarScroll();
+  // Assign difficulty after a brief delay to ensure all q files loaded
+  setTimeout(assignDifficulty, 100);
 });
 
 // Show Section
@@ -552,6 +613,12 @@ function startQuiz() {
     availableQuestions = window.quizQuestions.filter(q => q.topic === scope);
   }
 
+  // Filter by difficulty if selected
+  const diffPref = document.getElementById('quizDifficultySelect').value;
+  if (diffPref !== 'all') {
+    availableQuestions = availableQuestions.filter(q => q.difficulty === diffPref);
+  }
+
   // Filter out questions the user has already seen in previous attempts
   let unseenQuestions = availableQuestions.filter(q => !window.seenQuestions.has(q.question));
 
@@ -644,10 +711,17 @@ function renderQuestion() {
     ? '<span class="question-type-badge tf">True / False</span>'
     : '<span class="question-type-badge mcq">Multiple Choice</span>';
 
+  const diffMap = {
+    easy:   '<span class="question-type-badge" style="background: rgba(0,212,170,0.15); color: #00D4AA;">Easy</span>',
+    medium: '<span class="question-type-badge" style="background: rgba(255,179,71,0.15); color: #FFB347;">Medium</span>',
+    hard:   '<span class="question-type-badge" style="background: rgba(255,107,107,0.15); color: #FF6B6B;">Hard</span>'
+  };
+  const diffBadge = diffMap[q.difficulty] || '';
+
   const container = document.getElementById('questionContainer');
   container.innerHTML = `
     <div class="question-card fade-in">
-      ${typeBadge}
+      <div style="display: flex; gap: 8px; flex-wrap: wrap;">${typeBadge}${diffBadge}</div>
       <div class="question-text">${q.question}</div>
       <div class="options-list">
         ${q.options.map((opt, i) => {
@@ -797,6 +871,15 @@ function submitQuiz() {
   const timeMins = Math.floor(totalTime / 60);
   const timeSecs = totalTime % 60;
 
+  // Save to localStorage for progress tracking
+  saveQuizResult({
+    date: new Date().toISOString(),
+    scope: document.getElementById('quizChapterSelect').value,
+    totalQ, correctCount, percentage,
+    time: `${timeMins}:${String(timeSecs).padStart(2, '0')}`,
+    weakTopics: getWeakTopics()
+  });
+
   let message = '';
   let circleColor = '';
   if (percentage >= 90) {
@@ -861,6 +944,10 @@ function submitQuiz() {
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
           Review Summary
         </button>
+        <button class="btn btn-outline" onclick="renderProgressSection()">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          View Progress History
+        </button>
       </div>
 
       <div class="review-section">
@@ -912,4 +999,158 @@ function resetQuiz() {
     timeRemaining: 45 * 60
   };
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// ============================================================
+// SECTION 7: PROGRESS TRACKING
+// ============================================================
+
+function saveQuizResult(result) {
+  const history = JSON.parse(localStorage.getItem('quizHistory') || '[]');
+  history.push(result);
+  // Keep last 50 results
+  if (history.length > 50) history.shift();
+  localStorage.setItem('quizHistory', JSON.stringify(history));
+}
+
+function getQuizHistory() {
+  return JSON.parse(localStorage.getItem('quizHistory') || '[]');
+}
+
+function getWeakTopics() {
+  const weakTopics = {};
+  quizState.questions.forEach((q, i) => {
+    const userAnswer = quizState.answers[i];
+    if (userAnswer !== q.correct) {
+      const key = q.topic || q.chapter;
+      weakTopics[key] = (weakTopics[key] || 0) + 1;
+    }
+  });
+  return weakTopics;
+}
+
+function renderProgressSection() {
+  const history = getQuizHistory();
+  const resultsDiv = document.getElementById('quizResults');
+
+  if (history.length === 0) {
+    resultsDiv.innerHTML = `
+      <div class="fade-in" style="text-align: center; padding: 3rem;">
+        <h2 style="margin-bottom: 1rem;">Progress History</h2>
+        <p style="color: var(--clr-text-secondary);">No quiz attempts recorded yet. Complete a quiz to see your progress!</p>
+        <button class="btn btn-primary mt-2" onclick="resetQuiz()">Start a Quiz</button>
+      </div>`;
+    return;
+  }
+
+  // Calculate stats
+  const avgScore = Math.round(history.reduce((s, h) => s + h.percentage, 0) / history.length);
+  const bestScore = Math.max(...history.map(h => h.percentage));
+  const totalAttempts = history.length;
+  
+  // Aggregate weak topics
+  const allWeakTopics = {};
+  history.forEach(h => {
+    if (h.weakTopics) {
+      Object.entries(h.weakTopics).forEach(([topic, count]) => {
+        allWeakTopics[topic] = (allWeakTopics[topic] || 0) + count;
+      });
+    }
+  });
+  const sortedWeak = Object.entries(allWeakTopics).sort((a, b) => b[1] - a[1]).slice(0, 5);
+
+  // Score trend (last 10)
+  const recent = history.slice(-10);
+  const maxBarH = 120;
+
+  resultsDiv.innerHTML = `
+    <div class="fade-in">
+      <h2 style="margin-bottom: var(--space-xl); text-align: center;">Progress History</h2>
+
+      <div class="results-stats">
+        <div class="stat-card correct-stat">
+          <div class="stat-value">${avgScore}%</div>
+          <div class="stat-label">Average Score</div>
+        </div>
+        <div class="stat-card" style="border-left: 4px solid var(--clr-primary);">
+          <div class="stat-value">${bestScore}%</div>
+          <div class="stat-label">Best Score</div>
+        </div>
+        <div class="stat-card time-stat">
+          <div class="stat-value">${totalAttempts}</div>
+          <div class="stat-label">Total Attempts</div>
+        </div>
+      </div>
+
+      <div style="margin: 2rem 0;">
+        <h3 style="margin-bottom: 1rem; text-align: center;">Score Trend (Last ${recent.length} Quizzes)</h3>
+        <div style="display: flex; align-items: flex-end; justify-content: center; gap: 6px; height: ${maxBarH + 30}px; padding: 0 1rem;">
+          ${recent.map((h, i) => {
+            const barH = Math.max(4, (h.percentage / 100) * maxBarH);
+            const color = h.percentage >= 75 ? 'var(--clr-success)' : h.percentage >= 60 ? 'var(--clr-accent-warm)' : 'var(--clr-error)';
+            return `<div style="display: flex; flex-direction: column; align-items: center; flex: 1; max-width: 50px;">
+              <span style="font-size: 0.65rem; color: var(--clr-text-muted); margin-bottom: 4px;">${h.percentage}%</span>
+              <div style="width: 100%; height: ${barH}px; background: ${color}; border-radius: 4px 4px 0 0; transition: height 0.5s ease; min-width: 20px;"></div>
+              <span style="font-size: 0.6rem; color: var(--clr-text-muted); margin-top: 4px;">#${history.length - recent.length + i + 1}</span>
+            </div>`;
+          }).join('')}
+        </div>
+      </div>
+
+      ${sortedWeak.length > 0 ? `
+        <div style="margin: 2rem 0;">
+          <h3 style="margin-bottom: 1rem; text-align: center;">Topics to Review (Weak Areas)</h3>
+          <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+            ${sortedWeak.map(([topic, count]) => {
+              const label = topic.replace('ch1ap', 'Ch1 App').replace('ch', 'Ch').replace('_t', ' Topic ').replace('_all', '');
+              const barW = Math.min(100, (count / sortedWeak[0][1]) * 100);
+              return `<div style="display: flex; align-items: center; gap: 1rem;">
+                <span style="min-width: 120px; font-size: 0.85rem; color: var(--clr-text-secondary);">${label}</span>
+                <div style="flex: 1; height: 8px; background: var(--clr-surface); border-radius: 4px; overflow: hidden;">
+                  <div style="width: ${barW}%; height: 100%; background: var(--clr-error); border-radius: 4px;"></div>
+                </div>
+                <span style="font-size: 0.8rem; color: var(--clr-error); min-width: 40px;">${count} errors</span>
+              </div>`;
+            }).join('')}
+          </div>
+        </div>
+      ` : ''}
+
+      <div style="margin: 2rem 0;">
+        <h3 style="margin-bottom: 1rem; text-align: center;">Quiz History</h3>
+        <div style="max-height: 300px; overflow-y: auto;">
+          ${history.slice().reverse().map((h, i) => {
+            const d = new Date(h.date);
+            const dateStr = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', hour: '2-digit', minute: '2-digit' });
+            const scoreColor = h.percentage >= 75 ? 'var(--clr-success)' : h.percentage >= 60 ? 'var(--clr-accent-warm)' : 'var(--clr-error)';
+            return `<div style="display: flex; justify-content: space-between; align-items: center; padding: 0.75rem 1rem; background: var(--glass-bg); border: 1px solid var(--clr-border-light); border-radius: var(--radius-sm); margin-bottom: 0.5rem;">
+              <div>
+                <span style="font-size: 0.85rem; color: var(--clr-text);">#${history.length - i}</span>
+                <span style="font-size: 0.75rem; color: var(--clr-text-muted); margin-left: 0.5rem;">${dateStr}</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 1rem;">
+                <span style="font-size: 0.8rem; color: var(--clr-text-muted);">${h.correctCount}/${h.totalQ}</span>
+                <span style="font-weight: bold; color: ${scoreColor};">${h.percentage}%</span>
+                <span style="font-size: 0.75rem; color: var(--clr-text-muted);">${h.time}</span>
+              </div>
+            </div>`;
+          }).join('')}
+        </div>
+      </div>
+
+      <div class="results-actions">
+        <button class="btn btn-primary" onclick="resetQuiz()">New Quiz</button>
+        <button class="btn btn-secondary" onclick="clearHistory()">Clear History</button>
+      </div>
+    </div>
+  `;
+
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function clearHistory() {
+  if (confirm('Are you sure you want to clear all quiz history?')) {
+    localStorage.removeItem('quizHistory');
+    renderProgressSection();
+  }
 }

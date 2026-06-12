@@ -125,6 +125,14 @@
             <option value="0" style="background: var(--clr-bg);">No Time Limit</option>
           </select>
 
+          <label for="quizDifficultySelect" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Difficulty Level:</label>
+          <select id="quizDifficultySelect" style="width: 100%; padding: 12px; border-radius: var(--radius-md); border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.05); color: var(--clr-text); font-size: var(--fs-md); outline: none; margin-bottom: 1.5rem;">
+            <option value="all" style="background: var(--clr-bg);">All Levels (Mixed)</option>
+            <option value="easy" style="background: var(--clr-bg);">🟢 Easy — Definitions & Basics</option>
+            <option value="medium" style="background: var(--clr-bg);">🟡 Medium — Application & Scenarios</option>
+            <option value="hard" style="background: var(--clr-bg);">🔴 Hard — Analysis & Comparison</option>
+          </select>
+
           <label for="quizChapterSelect" style="display: block; margin-bottom: 0.5rem; font-weight: bold;">Select Quiz Scope:</label>
           <select id="quizChapterSelect" style="width: 100%; padding: 12px; border-radius: var(--radius-md); border: 1px solid rgba(255,255,255,0.2); background: rgba(255,255,255,0.05); color: var(--clr-text); font-size: var(--fs-md); outline: none;">
             <option value="all" style="background: var(--clr-bg);">Comprehensive Exam (Random from 600 Qs)</option>
@@ -264,7 +272,7 @@
   <script src="data/q_ch16_part2.js?v=1"></script>
   <script src="data/q_ch18.js?v=2"></script>
   <script src="data/q_ch18_part2.js?v=1"></script>
-  <script src="app.js?v=2"></script>
+  <script src="app.js?v=3"></script>
 
   <!-- Custom Confirm Modal -->
   <div id="confirmModal" class="hidden" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(10, 14, 39, 0.85); backdrop-filter: blur(8px); -webkit-backdrop-filter: blur(8px); z-index: 9999; display: flex; align-items: center; justify-content: center; opacity: 0; transition: opacity 0.3s ease;">

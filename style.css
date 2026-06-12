@@ -746,6 +746,77 @@ h1, h2, h3, h4, h5, h6 {
   color: var(--clr-text-secondary);
 }
 
+/* Real-World Application Card */
+.real-world-example {
+  background: linear-gradient(135deg, rgba(108, 99, 255, 0.08), rgba(0, 212, 170, 0.05));
+  border: 1px solid rgba(108, 99, 255, 0.25);
+  border-left: 4px solid var(--clr-primary);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin-top: var(--space-lg);
+}
+
+.real-world-example .rwe-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  color: var(--clr-primary-light);
+  margin-bottom: var(--space-sm);
+}
+
+.real-world-example .rwe-header svg {
+  width: 18px;
+  height: 18px;
+  color: var(--clr-primary-light);
+}
+
+.real-world-example p {
+  font-size: var(--fs-sm);
+  color: var(--clr-text-secondary);
+  line-height: 1.8;
+}
+
+.real-world-example .company-name {
+  color: var(--clr-secondary);
+  font-weight: 600;
+}
+
+/* Key Takeaways Card */
+.key-takeaways {
+  background: rgba(0, 212, 170, 0.06);
+  border: 1px solid rgba(0, 212, 170, 0.2);
+  border-left: 4px solid var(--clr-success);
+  border-radius: var(--radius-md);
+  padding: var(--space-lg);
+  margin-top: var(--space-lg);
+}
+
+.key-takeaways .kt-header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-sm);
+  font-family: var(--font-heading);
+  font-weight: 700;
+  font-size: var(--fs-sm);
+  color: var(--clr-success);
+  margin-bottom: var(--space-sm);
+}
+
+.key-takeaways ul {
+  padding-left: var(--space-lg);
+}
+
+.key-takeaways li {
+  font-size: var(--fs-sm);
+  color: var(--clr-text-secondary);
+  line-height: 1.8;
+  padding: 2px 0;
+  list-style: disc;
+}
+
 /* Comparison Table */
 .comparison-table {
   width: 100%;
